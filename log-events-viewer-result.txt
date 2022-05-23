@@ -1,0 +1,201 @@
+timestamp,message
+1653302834912,"Setting up openjdk-11-jre:amd64 (11.0.15+10-0ubuntu0.18.04.1) ...
+"
+1653302834912,"Setting up libatk-wrapper-java-jni:amd64 (0.33.3-20ubuntu0.1) ...
+"
+1653302834912,"Setting up openjdk-11-jdk:amd64 (11.0.15+10-0ubuntu0.18.04.1) ...
+"
+1653302834912,"Processing triggers for fontconfig (2.12.6-0ubuntu2) ...
+"
+1653302836933,"Processing triggers for mime-support (3.60ubuntu1) ...
+"
+1653302836933,"Processing triggers for libc-bin (2.27-3ubuntu1.5) ...
+"
+1653302840958,"Processing triggers for hicolor-icon-theme (0.17-2) ...
+"
+1653302842978,"
+"
+1653302842978,"[Container] 2022/05/23 10:47:21 Running command export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+"
+1653302842978,"
+"
+1653302842978,"[Container] 2022/05/23 10:47:21 Running command mvn sonar:sonar -Dsonar.login=$LOGIN -Dsonar.host.url=$HOST -Dsonar.projectKey=$Project -Dsonar.organization=$Organization -Dsonar.java.binaries=target/test-classes/com/visualpathit/account/controllerTest/ -Dsonar.junit.reportsPath=target/surefire-reports/ -Dsonar.jacoco.reportsPath=target/jacoco.exec -Dsonar.java.checkstyle.reportPaths=target/checkstyle-result.xml
+"
+1653302842978,"[INFO] Scanning for projects...
+"
+1653302845004,"Downloading from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/codehaus/mojo/sonar-maven-plugin/maven-metadata.xml
+"
+1653302845004,"Progress (1): 1.2 kB                    Downloaded from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/codehaus/mojo/sonar-maven-plugin/maven-metadata.xml (1.2 kB at 1.7 kB/s)
+"
+1653302845004,"Downloading from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/codehaus/mojo/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.pom
+"
+1653302845004,"Progress (1): 1.1 kB                    Downloaded from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/codehaus/mojo/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.pom (1.1 kB at 3.2 kB/s)
+"
+1653302845004,"Downloading from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/codehaus/mojo/mojo-parent/40/mojo-parent-40.pom
+"
+1653302845004,"Progress (1): 4.1/34 kBProgress (1): 8.2/34 kBProgress (1): 12/34 kB Progress (1): 16/34 kBProgress (1): 20/34 kBProgress (1): 25/34 kBProgress (1): 29/34 kBProgress (1): 33/34 kBProgress (1): 34 kB                      Downloaded from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/codehaus/mojo/mojo-parent/40/mojo-parent-40.pom (34 kB at 121 kB/s)
+"
+1653302845004,"Downloading from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.pom
+"
+1653302845004,"Progress (1): 4.1/12 kBProgress (1): 8.1/12 kBProgress (1): 12 kB                       Downloaded from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.pom (12 kB at 50 kB/s)
+"
+1653302845004,"Downloading from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/sonarsource/parent/parent/59.0.29/parent-59.0.29.pom
+"
+1653302847026,"Progress (1): 4.1/32 kBProgress (1): 8.2/32 kBProgress (1): 12/32 kB Progress (1): 16/32 kBProgress (1): 20/32 kBProgress (1): 25/32 kBProgress (1): 29/32 kBProgress (1): 32 kB                      Downloaded from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/sonarsource/parent/parent/59.0.29/parent-59.0.29.pom (32 kB at 152 kB/s)
+"
+1653302847026,"Downloading from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.jar
+"
+1653302847026,"Progress (1): 4.1/50 kBProgress (1): 8.2/50 kBProgress (1): 12/50 kB Progress (1): 16/50 kBProgress (1): 20/50 kBProgress (1): 25/50 kBProgress (1): 29/50 kBProgress (1): 33/50 kBProgress (1): 37/50 kBProgress (1): 41/50 kBProgress (1): 44/50 kBProgress (1): 48/50 kBProgress (1): 50 kB                      Downloaded from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/sonarsource/scanner/maven/sonar-maven-plugin/3.9.1.2184/sonar-maven-plugin-3.9.1.2184.jar (50 kB at 195 kB/s)
+"
+1653302847026,"[INFO] 
+"
+1653302847026,"[INFO] ---------------------< com.visualpathit:vprofile >----------------------
+"
+1653302847026,"[INFO] Building Visualpathit VProfile Webapp v2
+"
+1653302847026,"[INFO] --------------------------------[ war ]---------------------------------
+"
+1653302847026,"[INFO] 
+"
+1653302847026,"[INFO] --- sonar-maven-plugin:3.9.1.2184:sonar (default-cli) @ vprofile ---
+"
+1653302847026,"Downloading from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.pom
+"
+1653302847026,"Progress (1): 3.0 kB                    Downloaded from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.pom (3.0 kB at 12 kB/s)
+"
+1653302847026,"Downloading from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.pom
+"
+1653302847026,"Progress (1): 4.1/5.3 kBProgress (1): 5.3 kB                        Downloaded from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.pom (5.3 kB at 21 kB/s)
+"
+1653302847026,"Downloading from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/sonarsource/scanner/api/sonar-scanner-api/2.16.2.588/sonar-scanner-api-2.16.2.588.pom
+"
+1653302847026,"Progress (1): 4.1/5.2 kBProgress (1): 5.2 kB                        Downloaded from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/sonarsource/scanner/api/sonar-scanner-api/2.16.2.588/sonar-scanner-api-2.16.2.588.pom (5.2 kB at 25 kB/s)
+"
+1653302847026,"Downloading from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/sonarsource/scanner/api/sonar-scanner-api-parent/2.16.2.588/sonar-scanner-api-parent-2.16.2.588.pom
+"
+1653302849054,"Progress (1): 4.1/4.8 kBProgress (1): 4.8 kB                        Downloaded from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/sonarsource/scanner/api/sonar-scanner-api-parent/2.16.2.588/sonar-scanner-api-parent-2.16.2.588.pom (4.8 kB at 20 kB/s)
+"
+1653302849054,"Downloading from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/commons-lang/commons-lang/2.6/commons-lang-2.6.pom
+"
+1653302849054,"Progress (1): 4.1/17 kBProgress (1): 8.1/17 kBProgress (1): 12/17 kB Progress (1): 16/17 kBProgress (1): 17 kB                      Downloaded from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/commons-lang/commons-lang/2.6/commons-lang-2.6.pom (17 kB at 73 kB/s)
+"
+1653302849054,"Downloading from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/apache/commons/commons-parent/17/commons-parent-17.pom
+"
+1653302849054,"Progress (1): 4.1/31 kBProgress (1): 8.2/31 kBProgress (1): 12/31 kB Progress (1): 16/31 kBProgress (1): 20/31 kBProgress (1): 25/31 kBProgress (1): 29/31 kBProgress (1): 31 kB                      Downloaded from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/apache/commons/commons-parent/17/commons-parent-17.pom (31 kB at 135 kB/s)
+"
+1653302849054,"Downloading from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.jar
+"
+1653302849054,"Downloading from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+"
+1653302849054,"Downloading from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/sonarsource/scanner/api/sonar-scanner-api/2.16.2.588/sonar-scanner-api-2.16.2.588.jar
+"
+1653302849054,"Downloading from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar
+"
+1653302849054,"Progress (1): 4.1/625 kBProgress (1): 7.3/625 kBProgress (1): 11/625 kB Progress (1): 15/625 kBProgress (1): 20/625 kBProgress (1): 24/625 kBProgress (1): 28/625 kBProgress (1): 32/625 kBProgress (1): 36/625 kBProgress (1): 40/625 kBProgress (1): 42/625 kBProgress (1): 46/625 kBProgress (1): 50/625 kBProgress (1): 53/625 kBProgress (1): 57/625 kBProgress (1): 61/625 kBProgress (1): 65/625 kBProgress (1): 69/625 kBProgress (1): 74/625 kBProgress (1): 78/625 kBProgress (1): 82/625 kBProgress (1): 86/625 kBProgress (1): 88/625 kBProgress (1): 92/625 kBProgress (1): 96/625 kBProgress (1): 100/625 kBProgress (1): 104/625 kBProgress (1): 108/625 kBProgress (1): 112/625 kBProgress (1): 116/625 kBProgress (2): 116/625 kB | 3.2/262 kBProgress (2): 116/625 kB | 7.3/262 kBProgress (2): 116/625 kB | 11/262 kB Progress (2): 116/625 kB | 15/262 kBProgress (2): 116/625 kB | 20/262 kBProgress (2): 116/625 kB | 24/262 kBProgress (2): 116/625 kB | 28/262 kBProgress (2): 116/625 kB | 32/262 kBProgress (2): 116/625 kB | 36/262 kBProgress (2): 116/625 kB | 38/262 kBProgress (2): 116/625 kB | 42/262 kBProgress (2): 116/625 kB | 46/262 kBProgress (2): 116/625 kB | 50/262 kBProgress (2): 116/625 kB | 54/262 kBProgress (2): 116/625 kB | 58/262 kBProgress (2): 116/625 kB | 63/262 kBProgress (2): 116/625 kB | 67/262 kBProgress (2): 116/625 kB | 71/262 kBProgress (2): 116/625 kB | 73/262 kBProgress (2): 116/625 kB | 77/262 kBProgress (2): 116/625 kB | 81/262 kBProgress (2): 116/625 kB | 85/262 kBProgress (2): 116/625 kB | 89/262 kBProgress (2): 116/625 kB | 93/262 kBProgress (2): 116/625 kB | 97/262 kBProgress (2): 116/625 kB | 101/262 kBProgress (2): 116/625 kB | 106/262 kBProgress (2): 116/625 kB | 108/262 kBProgress (2): 120/625 kB | 108/262 kBProgress (2): 124/625 kB | 108/262 kBProgress (2): 128/625 kB | 108/262 kBProgress (2): 132/625 kB | 108/262 kBProgress (2): 132/625 kB | 112/262 kBProgress (2): 132/625 kB | 116/262 kBProgress (2): 132/625 kB | 120/262 kBProgress (2): 137/625 kB | 120/262 kBProgress (2): 137/625 kB | 124/262 kBProgress (2): 141/625 kB | 124/262 kBProgress (2): 145/625 kB | 124/262 kBProgress (2): 145/625 kB | 128/262 kBProgress (2): 145/625 kB | 132/262 kBProgress (2): 145/625 kB | 136/262 kBProgress (2): 145/625 kB | 140/262 kBProgress (2): 145/625 kB | 142/262 kBProgress (2): 149/625 kB | 142/262 kBProgress (2): 151/625 kB | 142/262 kBProgress (2): 155/625 kB | 142/262 kBProgress (2): 159/625 kB | 142/262 kBProgress (2): 163/625 kB | 142/262 kBProgress (2): 167/625 kB | 142/262 kBProgress (2): 171/625 kB | 142/262 kBProgress (2): 175/625 kB | 142/262 kBProgress (2): 180/625 kB | 142/262 kBProgress (2): 184/625 kB | 142/262 kBProgress (2): 186/625 kB | 142/262 kBProgress (2): 186/625 kB | 147/262 kBProgress (2): 186/625 kB | 151/262 kBProgress (2): 186/625 kB | 155/262 kBProgress (2): 186/625 kB | 159/262 kBProgress (2): 186/625 kB | 163/262 kBProgress (2): 186/625 kB | 167/262 kBProgress (2): 186/625 kB | 171/262 kBProgress (2): 186/625 kB | 175/262 kBProgress (2): 186/625 kB | 177/262 kBProgress (2): 188/625 kB | 177/262 kBProgress (2): 192/625 kB | 177/262 kBProgress (2): 196/625 kB | 177/262 kBProgress (2): 200/625 kB | 177/262 kBProgress (2): 204/625 kB | 177/262 kBProgress (2): 209/625 kB | 177/262 kBProgress (2): 213/625 kB | 177/262 kBProgress (2): 217/625 kB | 177/262 kBProgress (2): 221/625 kB | 177/262 kBProgress (2): 224/625 kB | 177/262 kBProgress (2): 228/625 kB | 177/262 kBProgress (2): 232/625 kB | 177/262 kBProgress (2): 236/625 kB | 177/262 kBProgress (2): 240/625 kB | 177/262 kBProgress (2): 245/625 kB | 177/262 kBProgress (2): 249/625 kB | 177/262 kBProgress (2): 251/625 kB | 177/262 kBProgress (2): 255/625 kB | 177/262 kBProgress (2): 259/625 kB | 177/262 kBProgress (2): 263/625 kB | 177/262 kBProgress (2): 267/625 kB | 177/262 kBProgress (2): 272/625 kB | 177/262 kBProgress (2): 276/625 kB | 177/262 kBProgress (2): 280/625 kB | 177/262 kBProgress (2): 284/625 kB | 177/262 kBProgress (2): 288/625 kB | 177/262 kBProgress (2): 292/625 kB | 177/262 kBProgress (2): 296/625 kB | 177/262 kBProgress (2): 300/625 kB | 177/262 kBProgress (2): 304/625 kB | 177/262 kBProgress (2): 308/625 kB | 177/262 kBProgress (2): 311/625 kB | 177/262 kBProgress (2): 315/625 kB | 177/262 kBProgress (2): 319/625 kB | 177/262 kBProgress (2): 324/625 kB | 177/262 kBProgress (2): 328/625 kB | 177/262 kBProgress (2): 332/625 kB | 177/262 kBProgress (2): 336/625 kB | 177/262 kBProgress (2): 340/625 kB | 177/262 kBProgress (2): 344/625 kB | 177/262 kBProgress (2): 346/625 kB | 177/262 kBProgress (2): 350/625 kB | 177/262 kBProgress (2): 354/625 kB | 177/262 kBProgress (2): 354/625 kB | 181/262 kBProgress (2): 358/625 kB | 181/262 kBProgress (2): 358/625 kB | 185/262 kBProgress (2): 362/625 kB | 185/262 kBProgress (2): 362/625 kB | 190/262 kBProgress (2): 362/625 kB | 194/262 kBProgress (2): 367/625 kB | 194/262 kBProgress (2): 371/625 kB | 194/262 kBProgress (2): 371/625 kB | 198/262 kBProgress (2): 375/625 kB | 198/262 kBProgress (2): 375/625 kB | 202/262 kBProgress (2): 379/625 kB | 202/262 kBProgress (2): 379/625 kB | 206/262 kBProgress (2): 381/625 kB | 206/262 kBProgress (2): 381/625 kB | 210/262 kBProgress (2): 381/625 kB | 212/262 kBProgress (2): 385/625 kB | 212/262 kBProgress (2): 389/625 kB | 212/262 kBProgress (2): 393/625 kB | 212/262 kBProgress (2): 397/625 kB | 212/262 kBProgress (2): 401/625 kB | 212/262 kBProgress (2): 405/625 kB | 212/262 kBProgress (2): 410/625 kB | 212/262 kBProgress (2): 414/625 kB | 212/262 kBProgress (2): 416/625 kB | 212/262 kBProgress (2): 420/625 kB | 212/262 kBProgress (2): 420/625 kB | 216/262 kBProgress (2): 420/625 kB | 220/262 kBProgress (2): 420/625 kB | 224/262 kBProgress (2): 420/625 kB | 228/262 kBProgress (2): 424/625 kB | 228/262 kBProgress (2): 428/625 kB | 228/262 kBProgress (2): 428/625 kB | 233/262 kBProgress (2): 432/625 kB | 233/262 kBProgress (2): 432/625 kB | 237/262 kBProgress (2): 432/625 kB | 241/262 kBProgress (2): 432/625 kB | 245/262 kBProgress (2): 432/625 kB | 247/262 kBProgress (2): 436/625 kB | 247/262 kBProgress (2): 440/625 kB | 247/262 kBProgress (2): 444/625 kB | 247/262 kBProgress (2): 448/625 kB | 247/262 kBProgress (2): 451/625 kB | 247/262 kBProgress (2): 455/625 kB | 247/262 kBProgress (2): 459/625 kB | 247/262 kBProgress (2): 463/625 kB | 247/262 kBProgress (2): 463/625 kB | 251/262 kBProgress (2): 467/625 kB | 251/262 kBProgress (2): 471/625 kB | 251/262 kBProgress (2): 475/625 kB | 251/262 kBProgress (2): 479/625 kB | 251/262 kBProgress (2): 483/625 kB | 251/262 kBProgress (2): 485/625 kB | 251/262 kBProgress (2): 485/625 kB | 255/262 kBProgress (2): 485/625 kB | 259/262 kBProgress (2): 485/625 kB | 262 kB    Progress (2): 489/625 kB | 262 kBProgress (2): 494/625 kB | 262 kBProgress (2): 498/625 kB | 262 kBProgress (2): 502/625 kB | 262 kBProgress (2): 506/625 kB | 262 kBProgress (2): 510/625 kB | 262 kBProgress (2): 514/625 kB | 262 kBProgress (2): 518/625 kB | 262 kBProgress (2): 520/625 kB | 262 kBProgress (2): 524/625 kB | 262 kBProgress (2): 528/625 kB | 262 kBProgress (2): 532/625 kB | 262 kBProgress (2): 537/625 kB | 262 kBProgress (2): 541/625 kB | 262 kBProgress (2): 545/625 kB | 262 kBProgress (2): 549/625 kB | 262 kBProgress (2): 553/625 kB | 262 kBProgress (2): 555/625 kB | 262 kBProgress (2): 559/625 kB | 262 kBProgress (2): 563/625 kB | 262 kBProgress (2): 567/625 kB | 262 kBProgress (2): 571/625 kB | 262 kBProgress (2): 575/625 kB | 262 kBProgress (2): 580/625 kB | 262 kBProgress (2): 584/625 kB | 262 kBProgress (2): 588/625 kB | 262 kBProgress (2): 590/625 kB | 262 kBProgress (2): 594/625 kB | 262 kBProgress (2): 598/625 kB | 262 kBProgress (2): 602/625 kB | 262 kBProgress (2): 606/625 kB | 262 kBProgress (2): 610/625 kB | 262 kBProgress (2): 614/625 kB | 262 kBProgress (2): 618/625 kB | 262 kBProgress (2): 623/625 kB | 262 kBProgress (2): 625/625 kB | 262 kBProgress (2): 625 kB | 262 kB                                 Downloaded from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/sonarsource/scanner/api/sonar-scanner-api/2.16.2.588/sonar-scanner-api-2.16.2.588.jar (625 kB at 1.3 MB/s)
+"
+1653302849054,"Progress (2): 262 kB | 4.1/28 kBProgress (2): 262 kB | 8.2/28 kBProgress (2): 262 kB | 12/28 kB Progress (2): 262 kB | 16/28 kBProgress (2): 262 kB | 20/28 kBProgress (2): 262 kB | 25/28 kBProgress (2): 262 kB | 28 kB   Progress (3): 262 kB | 28 kB | 4.1/284 kBProgress (3): 262 kB | 28 kB | 8.2/284 kBProgress (3): 262 kB | 28 kB | 12/284 kB Progress (3): 262 kB | 28 kB | 15/284 kBProgress (3): 262 kB | 28 kB | 20/284 kBProgress (3): 262 kB | 28 kB | 24/284 kBProgress (3): 262 kB | 28 kB | 28/284 kBProgress (3): 262 kB | 28 kB | 32/284 kBProgress (3): 262 kB | 28 kB | 36/284 kBProgress (3): 262 kB | 28 kB | 40/284 kBProgress (3): 262 kB | 28 kB | 44/284 kBProgress (3): 262 kB | 28 kB | 48/284 kBProgress (3): 262 kB | 28 kB | 50/284 kBProgress (3): 262 kB | 28 kB | 54/284 kB                                        Downloaded from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.jar (262 kB at 506 kB/s)
+"
+1653302849054,"Progress (2): 28 kB | 58/284 kBProgress (2): 28 kB | 63/284 kBProgress (2): 28 kB | 67/284 kBProgress (2): 28 kB | 71/284 kBProgress (2): 28 kB | 75/284 kBProgress (2): 28 kB | 79/284 kBProgress (2): 28 kB | 83/284 kBProgress (2): 28 kB | 85/284 kBProgress (2): 28 kB | 89/284 kBProgress (2): 28 kB | 93/284 kBProgress (2): 28 kB | 97/284 kBProgress (2): 28 kB | 101/284 kBProgress (2): 28 kB | 106/284 kBProgress (2): 28 kB | 110/284 kBProgress (2): 28 kB | 114/284 kBProgress (2): 28 kB | 116/284 kBProgress (2): 28 kB | 120/284 kBProgress (2): 28 kB | 124/284 kBProgress (2): 28 kB | 128/284 kBProgress (2): 28 kB | 132/284 kBProgress (2): 28 kB | 137/284 kBProgress (2): 28 kB | 141/284 kBProgress (2): 28 kB | 145/284 kBProgress (2): 28 kB | 149/284 kBProgress (2): 28 kB | 152/284 kBProgress (2): 28 kB | 156/284 kBProgress (2): 28 kB | 160/284 kBProgress (2): 28 kB | 164/284 kBProgress (2): 28 kB | 168/284 kBProgress (2): 28 kB | 173/284 kBProgress (2): 28 kB | 177/284 kBProgress (2): 28 kB | 181/284 kBProgress (2): 28 kB | 185/284 kBProgress (2): 28 kB | 188/284 kBProgress (2): 28 kB | 192/284 kBProgress (2): 28 kB | 196/284 kBProgress (2): 28 kB | 200/284 kBProgress (2): 28 kB | 204/284 kBProgress (2): 28 kB | 209/284 kBProgress (2): 28 kB | 213/284 kBProgress (2): 28 kB | 217/284 kBProgress (2): 28 kB | 221/284 kBProgress (2): 28 kB | 223/284 kBProgress (2): 28 kB | 227/284 kBProgress (2): 28 kB | 231/284 kBProgress (2): 28 kB | 235/284 kBProgress (2): 28 kB | 239/284 kBProgress (2): 28 kB | 243/284 kBProgress (2): 28 kB | 247/284 kBProgress (2): 28 kB | 252/284 kBProgress (2): 28 kB | 256/284 kBProgress (2): 28 kB | 258/284 kBProgress (2): 28 kB | 262/284 kBProgress (2): 28 kB | 266/284 kBProgress (2): 28 kB | 270/284 kBProgress (2): 28 kB | 274/284 kBProgress (2): 28 kB | 278/284 kBProgress (2): 28 kB | 282/284 kBProgress (2): 28 kB | 284 kB                                Downloaded from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar (28 kB at 49 kB/s)
+"
+1653302849054,"Downloaded from codeartifact: https://adiadiadi-776184861594.d.codeartifact.us-east-1.amazonaws.com/maven/maven-central-store/commons-lang/commons-lang/2.6/commons-lang-2.6.jar (284 kB at 475 kB/s)
+"
+1653302849054,"[INFO] User cache: /root/.sonar/cache
+"
+1653302853077,"[INFO] SonarQube version: 9.4.0
+"
+1653302853077,"[INFO] Default locale: ""en_US"", source code encoding: ""US-ASCII"" (analysis is platform dependent)
+"
+1653302853077,"[INFO] Load global settings
+"
+1653302853077,"[INFO] Load global settings (done) | time=570ms
+"
+1653302853077,"[INFO] Server id: 1BD809FA-AWHW8ct9-T_TB3XqouNu
+"
+1653302853077,"[INFO] User cache: /root/.sonar/cache
+"
+1653302853077,"[INFO] Load/download plugins
+"
+1653302853077,"[INFO] Load plugins index
+"
+1653302853077,"[INFO] Load plugins index (done) | time=137ms
+"
+1653302885125,"[INFO] Load/download plugins (done) | time=31258ms
+"
+1653302885125,"[INFO] Loaded core extensions: developer-scanner
+"
+1653302885125,"[INFO] Found an active CI vendor: 'AWS CodeBuild'
+"
+1653302885125,"[INFO] Load project settings for component key: 'aditya-repo'
+"
+1653302885125,"[INFO] Load project settings for component key: 'aditya-repo' (done) | time=114ms
+"
+1653302885125,"[INFO] Process project properties
+"
+1653302885125,"[INFO] Execute project builders
+"
+1653302885125,"[INFO] Execute project builders (done) | time=2ms
+"
+1653302885125,"[INFO] Project key: ***[INFO] Base dir: /codebuild/output/src026849464/src/git-codecommit.us-east-1.amazonaws.com/v1/repos/adi-code-repo
+"
+1653302885125,"[INFO] Working dir: /codebuild/output/src026849464/src/git-codecommit.us-east-1.amazonaws.com/v1/repos/adi-code-repo/target/sonar
+"
+1653302885125,"[INFO] Load project branches
+"
+1653302885125,"[INFO] Load project branches (done) | time=114ms
+"
+1653302885125,"[INFO] Check ALM binding of project 'aditya-repo'
+"
+1653302885125,"[INFO] Detected project binding: NOT_BOUND
+"
+1653302885125,"[INFO] Check ALM binding of project 'aditya-repo' (done) | time=102ms
+"
+1653302885125,"[INFO] Load project pull requests
+"
+1653302885125,"[INFO] Load project pull requests (done) | time=102ms
+"
+1653302885125,"[INFO] Load branch configuration
+"
+1653302885125,"[INFO] Load branch configuration (done) | time=2ms
+"
+1653302885125,"[INFO] Load quality profiles
+"
+1653302887763,"[INFO] ------------------------------------------------------------------------
+"
+1653302887763,"[INFO] BUILD FAILURE
+"
+1653302887763,"[INFO] ------------------------------------------------------------------------
+"
+1653302887763,"[INFO] Total time:  42.821 s
+"
+1653302887763,"[INFO] Finished at: 2022-05-23T10:48:05Z
+"
+1653302887763,"[INFO] ------------------------------------------------------------------------
+"
+1653302887763,"[ERROR] Failed to execute goal org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.1.2184:sonar (default-cli) on project vprofile: Failed to load the default quality profiles: No organization with key '***' -> [Help 1]
+"
+1653302887763,"[ERROR] 
+"
+1653302887763,"[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+"
+1653302887763,"[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+"
+1653302887763,"[ERROR] 
+"
+1653302887763,"[ERROR] For more information about the errors and possible solutions, please read the following articles:
+"
+1653302887763,"[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+"
+1653302887763,"
+"
+1653302887763,"[Container] 2022/05/23 10:48:05 Command did not exit successfully mvn sonar:sonar -Dsonar.login=$LOGIN -Dsonar.host.url=$HOST -Dsonar.projectKey=$Project -Dsonar.organization=$Organization -Dsonar.java.binaries=target/test-classes/com/visualpathit/account/controllerTest/ -Dsonar.junit.reportsPath=target/surefire-reports/ -Dsonar.jacoco.reportsPath=target/jacoco.exec -Dsonar.java.checkstyle.reportPaths=target/checkstyle-result.xml exit status 1
+"
+1653302887763,"[Container] 2022/05/23 10:48:05 Phase complete: BUILD State: FAILED
+"
+1653302887763,"[Container] 2022/05/23 10:48:05 Phase context status code: COMMAND_EXECUTION_ERROR Message: Error while executing command: mvn sonar:sonar -Dsonar.login=$LOGIN -Dsonar.host.url=$HOST -Dsonar.projectKey=$Project -Dsonar.organization=$Organization -Dsonar.java.binaries=target/test-classes/com/visualpathit/account/controllerTest/ -Dsonar.junit.reportsPath=target/surefire-reports/ -Dsonar.jacoco.reportsPath=target/jacoco.exec -Dsonar.java.checkstyle.reportPaths=target/checkstyle-result.xml. Reason: exit status 1
+"
+1653302887763,"[Container] 2022/05/23 10:48:05 Entering phase POST_BUILD
+"
+1653302887763,"[Container] 2022/05/23 10:48:05 Phase complete: POST_BUILD State: SUCCEEDED
+"
+1653302887763,"[Container] 2022/05/23 10:48:05 Phase context status code:  Message: 
+"
